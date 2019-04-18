@@ -1,0 +1,80 @@
+body {
+	font-family: "Century Gothic", verdana, Sans-serif ; 
+	font-style: normal;					/*Specifying which font, background colour and serif to use on the whole page*/
+	font-size: 100%;
+	background-color: darkred;
+}
+
+#container{								/*Container Start*/
+	background-color: black;			/*Specifying the background colour of the container */
+}
+
+header{									/*Header Start*/
+	background-color: white;			/*Setting the background colour of the header*/
+}
+nav li{
+	list-style-type: none;				/*Setting the font size, colour and display of the navigation bar*/
+	font-size: 14pt;
+	color: black;
+	display: inline;
+}
+
+nav  a{
+	text-decoration: none; 				/*Setting the text decration to be none on the navigation bar to get rid of the lines*/
+	color: black;  
+}
+										/*Header End*/
+										/*Main Body Start*/
+#main_body{								/*Setting the background colour, font colour and font size of all the elements*/
+	background-color: white;
+	color: white;
+	font-size: 12pt;
+}
+
+#text1{									/*the styling of the elements that are going to hold text, giving it a backdrop shadow and background colour*/
+	background-color: darkred;
+	box-shadow:  6px 6px 6px black,
+				-6px 6px 6px black,
+				-6px -6px 6px black,
+				 6px -6px 6px black;
+}
+
+#img1, #img2{							/*just giving the shadow backdrop on any images in the main body*/
+	box-shadow:  6px 6px 6px black,
+				-6px 6px 6px black,
+				-6px -6px 6px black,
+				 6px -6px 6px black;
+}
+										/*Main Body End*/
+										/*Footer Start*/
+footer{
+	background-color: darkred;			/*Setting the background colour for the footer */
+}
+
+footer  ul  li {						/*Specifying the display, font size and font colour*/
+   list-style-type:none;
+   display:inline; 
+   font-size: 10pt;
+   color:white;
+}
+
+footer  nav  ul li{						/*Specifying the display, fontsize and list style for the footer navigation*/
+	font-size: 8pt;
+	list-style-type: none;
+	display: inline;
+}
+
+footer nav ul li a{						/*Specfying it to have underline deceration and the colour blue*/
+	text-decoration: underline;
+	color: blue;
+}
+
+footer nav a:visited {color:purple;}	/*when link is clicked on the bottom it will turn purple, showing you have visted before*/
+
+
+header, nav{
+	background-color: white;			/*Setting the navigation abckground colour to white*/				
+}							
+				
+										/*Footer End*/
+										/*Container End*/

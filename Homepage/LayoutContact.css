@@ -1,0 +1,128 @@
+/* This is a CSS comment */
+* {
+	padding:0;         	/* I am setting the universal padding and margin to be used across all web broswers*/
+	margin:0; 
+}
+					   	/*Container Start*/
+#container{
+	margin: 0 auto;    	/*This is the container, it is the main element that holds in all the other elements on the page */
+	width: 960px;      	/*such as the header,body and footer*/
+	margin-top: -25px; 	/*I have set the width to be 960px wide, the margin top eliminates any top margin areas that are white*/
+}
+
+#BB1{
+	width: 960px;      	/*This is a black bar which is 5px wide that i created in photoshop*/
+	position: relative;	/*It is on top of the page where the header begins, its a style element of the site*/
+	top: -70px;		   	/*It is 960px wide to go across the contianer width*/	
+}
+					   	/*Header Start*/
+header{
+	min-height: 100px; 	/*I am choosing what the minimum height for my header should be*/
+}
+
+#Logo{
+	width: 80px;       	/*This is the logo image that is placed in the header next to the title*/
+	position: relative;	/*The image is rendered relaitve to its position, so it can be moved*/
+	bottom: -40px;
+}
+
+h1{
+	position:relative; 	/*This is the first title in my webpage, it is the title of the page letting the useer know where they are*/
+	margin-top: -50px;
+	right: -100px;
+}
+
+nav{
+	padding: 0;		   	/*This is where I implement the website navigation bar which is used across all the pages*/	
+	margin-bottom: 5px;	/*There is a margin bottom so that a black line appear, this is due to the container being black and it being behindall the stuff */
+	min-height:20px;
+}
+
+nav ul{				   	/*I have moved the navigation to the left towards the centre of the page*/
+	padding: 0;
+	position: relative;
+	left:300px;
+}
+						
+nav li{
+	margin-right: 40px;	/*I have sperated the words more between the text of the navigation buttons*/
+}
+
+.keep_clear {
+	clear: both;       	/*Preventing other elements not to float, only the specified ones*/
+}
+
+.headerRight {		   	/*These are for the soical buttons that i have linked on the top left of the site*/
+	padding: 0px;	   	/*The social buttons are all floated to the right here */
+	float: right;	   	/*Also moving it upwards*/
+	position: relative;
+	top: -50px;
+	margin-right: 20px;
+}
+
+.headerFloatRight {    	/*Floating the twitter logo to the right*/
+	float: right;      	/*Giving it margin of 5 pixels*/
+	margin-left: 5px;
+}
+
+.headerFloatLeft {	   	/*Floating the facebook and flickr logo to the left*/	
+	float: left;       	/*Giving it margin of 5 pixels*/
+	margin-left: 5px;
+}
+					   	/*Header End*/
+					   	/*Main Body Start*/
+#main_body{
+	min-height: 550px;	/*The main body will have a max height of 550px to fit in all the elements*/
+	margin-bottom: 5px;	/*Margin of 5px wide to show a black border from the container */
+}
+
+#text1{					/*The text width and padding, also i have adjusted the location to its relative position*/
+	width: 755px;
+	padding: 5px;
+	vertical-align: top;
+	position: relative;
+	bottom: -25px;
+	left: 80px;
+}
+#img1{					/*Image location adn width*/
+	position: relative;
+	width: 320px;
+	bottom: -40px;
+	right: -80px;
+}
+
+#img2{					/*Image2 location and width */
+	position: relative;
+	width: 350px;
+	right: -180px;
+	bottom: -45px;
+}
+						/*Main Body End*/
+						/*Footer Start*/
+footer{
+	min-height: 20px;	/*Specifying the minimum height of the footer*/
+}
+
+footer nav{				
+	position: relative;	/*Adding a url link navigation to the other pages in the webstie at the bottom*/
+}
+
+footer > ul{
+	position: relative;	/*Aligning the footer to the centre*/
+	text-align: center;
+	max-height: 40px;	/*max height for the footer ul tag*/
+}
+
+footer > nav >  ul{		
+	padding: 0;
+	position: relative;
+}
+
+footer  nav  ul  li{	/*Moving the navigatoin bar to the correct place*/
+	margin-right: 0px;
+	position: relative;
+	text-align: center;
+	left: -295px;
+}
+						/*Footer End*/
+						/*Container End*/
